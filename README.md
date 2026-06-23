@@ -274,7 +274,7 @@ Contains metadata collected from arXiv, including:
 
 ### **Generated Research Report**
 
-"sample_research_report.txt"
+"research_report.txt"
 
 Contains:
 
