@@ -64,7 +64,7 @@ This project was developed to explore the practical application of Information R
 
 ## **System Architecture**
 
-+------------------+
+                         +------------------+
                          |   User Topic     |
                          +--------+---------+
                                   |
