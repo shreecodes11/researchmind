@@ -19,8 +19,6 @@ This project was developed to explore the practical application of Information R
 
 ## **Features**
 
----
-
 ### **Research Paper Retrieval**
 
 - Retrieves research papers directly from the arXiv API.
@@ -66,7 +64,6 @@ This project was developed to explore the practical application of Information R
 
 ## **System Architecture**
 
----
 
 ┌─────────────────────┐
 │     User Topic      │
@@ -120,8 +117,6 @@ This project was developed to explore the practical application of Information R
 
 ## **Technologies Used**
 
----
-
 ### **Programming Language**
 
 - Python
@@ -149,8 +144,6 @@ This project was developed to explore the practical application of Information R
 ---
 
 ## **Workflow**
-
----
 
 ### **1. Research Topic Selection**
 
@@ -188,15 +181,11 @@ Results are compiled into a structured research report.
 
 ## **Installation**
 
----
-
 pip install arxiv pandas numpy sentence-transformers faiss-cpu transformers torch nltk
 
 ---
 
 ## **Usage**
-
----
 
 1. Enter a research topic.
 2. Retrieve research papers from arXiv.
@@ -210,8 +199,6 @@ pip install arxiv pandas numpy sentence-transformers faiss-cpu transformers torc
 
 ## **Example Applications**
 
----
-
 - Literature review assistance
 - Research paper discovery
 - Topic exploration
@@ -222,8 +209,6 @@ pip install arxiv pandas numpy sentence-transformers faiss-cpu transformers torc
 ---
 
 ## **Current Limitations**
-
----
 
 This project represents an initial implementation of a retrieval-augmented research assistant and has several limitations:
 
@@ -240,8 +225,6 @@ These limitations provide opportunities for future development and research.
 ---
 
 ## **Future Work**
-
----
 
 #### **Planned improvements include:**
 
@@ -260,8 +243,6 @@ These limitations provide opportunities for future development and research.
 
 ## **Project Highlights**
 
----
-
 - End-to-end research paper retrieval pipeline
 - Semantic paper retrieval using vector embeddings
 - FAISS-based similarity search
@@ -274,8 +255,6 @@ These limitations provide opportunities for future development and research.
 
 ## **Acknowledgements**
 
----
-
 This project utilizes publicly available research papers retrieved from arXiv and open-source machine learning libraries including Sentence Transformers, FAISS, PyTorch, Transformers, and NLTK.
 
 The retrieved research papers remain the intellectual property of their respective authors.
@@ -283,8 +262,6 @@ The retrieved research papers remain the intellectual property of their respecti
 ---
 
 ## **Disclaimer**
-
----
 
 This project is intended for educational and research-support purposes.
 
