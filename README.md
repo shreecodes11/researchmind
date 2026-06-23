@@ -1,7 +1,10 @@
-# researchmind
 ResearchMind: A Retrieval-Augmented Research Paper Assistant for Literature Review and Trend Analysis
 
+---
+
 Overview
+
+---
 
 ResearchMind is a research-support tool designed to assist users in exploring academic literature through semantic search, literature summarization, trend analysis, and automated report generation.
 
@@ -14,6 +17,8 @@ This project was developed to explore the practical application of Information R
 ---
 
 Features
+
+---
 
 Research Paper Retrieval
 
@@ -60,37 +65,61 @@ Automated Report Generation
 
 System Architecture
 
-User Topic
-    │
-    ▼
-arXiv API
-    │
-    ▼
-Research Paper Retrieval
-    │
-    ▼
-Abstract Processing
-    │
-    ▼
-Sentence Embeddings
-    │
-    ▼
-FAISS Vector Database
-    │
-    ▼
-Semantic Retrieval
-    │
-    ▼
-Relevant Research Papers
-    │
-    ├──► Question Answering
-    ├──► Literature Summary Generation
-    ├──► Research Trend Analysis
-    └──► Automated Report Generation
+---
+
+┌─────────────────────┐
+│     User Topic      │
+└──────────┬──────────┘
+           │
+           ▼
+┌─────────────────────┐
+│      arXiv API      │
+└──────────┬──────────┘
+           │
+           ▼
+┌─────────────────────┐
+│ Research Retrieval  │
+└──────────┬──────────┘
+           │
+           ▼
+┌─────────────────────┐
+│ Abstract Processing │
+└──────────┬──────────┘
+           │
+           ▼
+┌─────────────────────┐
+│ Sentence Embeddings │
+└──────────┬──────────┘
+           │
+           ▼
+┌─────────────────────┐
+│   FAISS Database    │
+└──────────┬──────────┘
+           │
+           ▼
+┌─────────────────────┐
+│ Semantic Retrieval  │
+└──────────┬──────────┘
+           │
+           ▼
+┌───────────────────────────────┐
+│ Relevant Research Papers      │
+└───────┬─────────┬────────┬────┘
+        │         │        │
+        ▼         ▼        ▼
+ Question    Literature   Trend
+ Answering    Summary    Analysis
+        │         │        │
+        └────┬────┴────┬───┘
+             ▼         ▼
+      Automated Report
+         Generation
 
 ---
 
 Technologies Used
+
+---
 
 Programming Language
 
@@ -119,6 +148,8 @@ Concepts Applied
 ---
 
 Workflow
+
+---
 
 1. Research Topic Selection
 
@@ -156,6 +187,8 @@ Results are compiled into a structured research report.
 
 Repository Structure
 
+---
+
 ResearchMind/
 │
 ├── researchmind.py
@@ -168,11 +201,15 @@ ResearchMind/
 
 Installation
 
+---
+
 pip install arxiv pandas numpy sentence-transformers faiss-cpu transformers torch nltk
 
 ---
 
 Usage
+
+---
 
 1. Enter a research topic.
 2. Retrieve research papers from arXiv.
@@ -186,6 +223,8 @@ Usage
 
 Example Applications
 
+---
+
 - Literature review assistance
 - Research paper discovery
 - Topic exploration
@@ -196,6 +235,8 @@ Example Applications
 ---
 
 Current Limitations
+
+---
 
 This project represents an initial implementation of a retrieval-augmented research assistant and has several limitations:
 
@@ -212,6 +253,8 @@ These limitations provide opportunities for future development and research.
 ---
 
 Future Work
+
+---
 
 Planned improvements include:
 
@@ -230,6 +273,8 @@ Planned improvements include:
 
 Project Highlights
 
+---
+
 - End-to-end research paper retrieval pipeline
 - Semantic paper retrieval using vector embeddings
 - FAISS-based similarity search
@@ -242,6 +287,8 @@ Project Highlights
 
 Acknowledgements
 
+---
+
 This project utilizes publicly available research papers retrieved from arXiv and open-source machine learning libraries including Sentence Transformers, FAISS, PyTorch, Transformers, and NLTK.
 
 The retrieved research papers remain the intellectual property of their respective authors.
@@ -250,10 +297,10 @@ The retrieved research papers remain the intellectual property of their respecti
 
 Disclaimer
 
+---
+
 This project is intended for educational and research-support purposes.
 
 Generated summaries, answers, and trend analyses should be treated as assistive outputs and verified against the original research papers before use in academic work.
 
 Users are responsible for appropriately citing any referenced research papers in their own publications, reports, or assignments.
-
----
