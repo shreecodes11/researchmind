@@ -1,8 +1,8 @@
-ResearchMind: A Retrieval-Augmented Research Paper Assistant for Literature Review and Trend Analysis
+#ResearchMind: A Retrieval-Augmented Research Paper Assistant for Literature Review and Trend Analysis
 
 ---
 
-Overview
+##**Overview**
 
 ---
 
@@ -16,43 +16,43 @@ This project was developed to explore the practical application of Information R
 
 ---
 
-Features
+##**Features**
 
 ---
 
-Research Paper Retrieval
+###**Research Paper Retrieval**
 
 - Retrieves research papers directly from the arXiv API.
 - Supports user-defined research topics.
 - Extracts paper metadata including titles, abstracts, publication dates, and PDF links.
 
-Semantic Search
+###**Semantic Search**
 
 - Converts research abstracts into dense vector embeddings using Sentence Transformers.
 - Enables semantic similarity search beyond traditional keyword matching.
 
-Vector Database Integration
+###**Vector Database Integration**
 
 - Stores embeddings using FAISS.
 - Supports efficient retrieval of relevant research papers.
 
-Research Question Answering
+###**Research Question Answering**
 
 - Accepts natural language questions.
 - Retrieves relevant papers based on semantic similarity.
 - Generates responses using retrieved research context.
 
-Literature Summary Generation
+###**Literature Summary Generation**
 
 - Produces concise summaries from retrieved paper abstracts.
 - Provides a quick overview of a research topic.
 
-Research Trend Analysis
+###**Research Trend Analysis**
 
 - Identifies frequently occurring research themes and concepts.
 - Highlights active research directions within a selected domain.
 
-Automated Report Generation
+###**Automated Report Generation**
 
 - Creates structured reports containing:
   - Research topic
@@ -63,7 +63,7 @@ Automated Report Generation
 
 ---
 
-System Architecture
+##**System Architecture**
 
 ---
 
@@ -117,15 +117,15 @@ System Architecture
 
 ---
 
-Technologies Used
+##**Technologies Used**
 
 ---
 
-Programming Language
+###**Programming Language**
 
 - Python
 
-Libraries and Frameworks
+###**Libraries and Frameworks**
 
 - arxiv
 - pandas
@@ -136,7 +136,7 @@ Libraries and Frameworks
 - PyTorch
 - NLTK
 
-Concepts Applied
+###**Concepts Applied**
 
 - Retrieval-Augmented Generation (RAG)
 - Semantic Search
@@ -147,31 +147,31 @@ Concepts Applied
 
 ---
 
-Workflow
+##**Workflow**
 
 ---
 
-1. Research Topic Selection
+###**1. Research Topic Selection**
 
 The user provides a research topic.
 
-2. Paper Retrieval
+###**2. Paper Retrieval**
 
 Relevant papers are retrieved from arXiv using the arXiv API.
 
-3. Embedding Generation
+###**3. Embedding Generation**
 
 Paper abstracts are converted into vector representations using Sentence Transformers.
 
-4. Vector Index Construction
+###**4. Vector Index Construction**
 
 Embeddings are indexed using FAISS for efficient similarity search.
 
-5. Semantic Retrieval
+###**5. Semantic Retrieval**
 
 User questions are transformed into embeddings and matched against indexed papers.
 
-6. Knowledge Generation
+###**6. Knowledge Generation**
 
 Retrieved papers are used to generate:
 
@@ -179,27 +179,13 @@ Retrieved papers are used to generate:
 - Literature summaries
 - Research trend analysis
 
-7. Report Generation
+###**7. Report Generation**
 
 Results are compiled into a structured research report.
 
 ---
 
-Repository Structure
-
----
-
-ResearchMind/
-│
-├── researchmind.py
-├── retrieved_papers.csv
-├── research_report.txt
-├── README.md
-└── requirements.txt
-
----
-
-Installation
+##**Installation**
 
 ---
 
@@ -207,7 +193,7 @@ pip install arxiv pandas numpy sentence-transformers faiss-cpu transformers torc
 
 ---
 
-Usage
+##**Usage**
 
 ---
 
@@ -221,7 +207,7 @@ Usage
 
 ---
 
-Example Applications
+##**Example Applications**
 
 ---
 
@@ -234,7 +220,7 @@ Example Applications
 
 ---
 
-Current Limitations
+##**Current Limitations**
 
 ---
 
@@ -252,11 +238,11 @@ These limitations provide opportunities for future development and research.
 
 ---
 
-Future Work
+##**Future Work**
 
 ---
 
-Planned improvements include:
+####**Planned improvements include:**
 
 - Integration with Semantic Scholar
 - Integration with OpenAlex
@@ -271,7 +257,7 @@ Planned improvements include:
 
 ---
 
-Project Highlights
+##**Project Highlights**
 
 ---
 
@@ -285,7 +271,7 @@ Project Highlights
 
 ---
 
-Acknowledgements
+##**Acknowledgements**
 
 ---
 
@@ -295,7 +281,7 @@ The retrieved research papers remain the intellectual property of their respecti
 
 ---
 
-Disclaimer
+##**Disclaimer**
 
 ---
 
