@@ -161,7 +161,7 @@ Paper abstracts are converted into vector representations using Sentence Transfo
 
 Embeddings are indexed using FAISS for efficient similarity search.
 
-###**5. Semantic Retrieval**
+### **5. Semantic Retrieval**
 
 User questions are transformed into embeddings and matched against indexed papers.
 
