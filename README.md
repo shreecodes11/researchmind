@@ -4,7 +4,7 @@
 
 ## **Overview**
 
----
+
 
 ResearchMind is a research-support tool designed to assist users in exploring academic literature through semantic search, literature summarization, trend analysis, and automated report generation.
 
